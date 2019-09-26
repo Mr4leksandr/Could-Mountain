@@ -1,0 +1,29 @@
+html{
+    background-color: aqua;
+}
+
+.border{
+    height: 800px;
+    width: 800px;
+    border: 3px solid black;
+    margin: 0 auto;
+}
+
+.mountain{
+    margin-top: 20%;
+    margin-left: 15%;
+}
+
+.cloud1{
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.cloud2{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.cloud3{
+    margin-left: 0px;
+}
