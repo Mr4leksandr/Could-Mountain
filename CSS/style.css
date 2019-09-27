@@ -1,29 +1,48 @@
 html{
-    background-color: aqua;
+    background-color: rgb(104, 105, 105);
 }
 
 .border{
+    position: relative;
     height: 800px;
     width: 800px;
-    border: 3px solid black;
+    border: 3px solid white;
     margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Vibes', cursive;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    background-color: rgb(56, 55, 55)
+}
+
+img{
+    position: absolute;
 }
 
 .mountain{
-    margin-top: 20%;
-    margin-left: 15%;
+    bottom: 15%;
+    right: 10%;
 }
 
 .cloud1{
-    margin-left: 50px;
-    margin-top: 100px;
+    top: 20%;
+    left: 10%;
 }
 
 .cloud2{
-    margin-left: 200px;
-    margin-top: 50px;
+    top: 15%;
+    right: 10%;
 }
 
 .cloud3{
-    margin-left: 0px;
+    top: 30%;
+    right: 25%;
+}
+
+.txt{
+    position: absolute;
+    color: white;
+    right: 25%;
+    bottom: 3%;
 }
